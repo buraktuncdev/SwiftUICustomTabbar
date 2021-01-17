@@ -12,6 +12,8 @@
 		7080C20525B4D6680068F4A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080C20425B4D6680068F4A3 /* ContentView.swift */; };
 		7080C20725B4D6690068F4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7080C20625B4D6690068F4A3 /* Assets.xcassets */; };
 		7080C20A25B4D6690068F4A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7080C20925B4D6690068F4A3 /* Preview Assets.xcassets */; };
+		70E78EBF25B4DECA00FEFE89 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E78EBE25B4DECA00FEFE89 /* ViewRouter.swift */; };
+		70E78EC225B4E0D900FEFE89 /* PlusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E78EC125B4E0D900FEFE89 /* PlusMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7080C20625B4D6690068F4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7080C20925B4D6690068F4A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7080C20B25B4D6690068F4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E78EBE25B4DECA00FEFE89 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		70E78EC125B4E0D900FEFE89 /* PlusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				7080C20225B4D6680068F4A3 /* SwiftUICustomTabbarApp.swift */,
 				7080C20425B4D6680068F4A3 /* ContentView.swift */,
 				7047965D25B4DC220034CDC2 /* TabBarIcon.swift */,
+				70E78EBE25B4DECA00FEFE89 /* ViewRouter.swift */,
+				70E78EC125B4E0D900FEFE89 /* PlusMenu.swift */,
 				7080C20625B4D6690068F4A3 /* Assets.xcassets */,
 				7080C20B25B4D6690068F4A3 /* Info.plist */,
 				7080C20825B4D6690068F4A3 /* Preview Content */,
@@ -144,6 +150,8 @@
 				7047965E25B4DC220034CDC2 /* TabBarIcon.swift in Sources */,
 				7080C20525B4D6680068F4A3 /* ContentView.swift in Sources */,
 				7080C20325B4D6680068F4A3 /* SwiftUICustomTabbarApp.swift in Sources */,
+				70E78EBF25B4DECA00FEFE89 /* ViewRouter.swift in Sources */,
+				70E78EC225B4E0D900FEFE89 /* PlusMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

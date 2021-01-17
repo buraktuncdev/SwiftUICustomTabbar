@@ -9,6 +9,9 @@ import SwiftUI
 
 struct TabBarIcon: View {
     
+    @StateObject var viewRouter: ViewRouter
+    let assignedPage: Page
+    
     let localWidth, localHeight: CGFloat
     let localSystemIconName, localTabName: String
     
@@ -24,5 +27,9 @@ struct TabBarIcon: View {
             Spacer()
         }
         .padding(.horizontal, -4)
+        .onTapGesture {
+            viewRouter.currentPage = assignedPage
+        }
+        .foregroundColor(viewRouter.currentPage == assignedPage ? Color("TabBarHighlight"): .gray)
     }
 }
